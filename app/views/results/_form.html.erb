@@ -1,0 +1,14 @@
+<%= simple_form_for(@result) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.association :rank %>
+    <%= f.input :table_number %>
+    <%= f.input :degeree_of_progress %>
+    <%= f.input :table_point %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

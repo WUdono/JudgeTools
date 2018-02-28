@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rank: one
+  table_number: 1
+  degeree_of_progress: 1
+  table_point: 1
+
+two:
+  rank: two
+  table_number: 1
+  degeree_of_progress: 1
+  table_point: 1

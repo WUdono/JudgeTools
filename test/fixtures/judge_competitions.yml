@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  judge: one
+  competition: one
+  attendance: one
+
+two:
+  judge: two
+  competition: two
+  attendance: two

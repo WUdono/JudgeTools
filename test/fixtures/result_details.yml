@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  result: one
+  player: one
+  judge: one
+  table_role: one
+  ranking: 1
+  feeling_ranking: 1
+  q: 1
+  c1: 1
+  c2: 1
+  s1: 1
+  s2: 1
+  s3: 1
+  a1: 1
+  a2: 1
+  a3: 1
+  attitude_point: 1
+  statement_count: 1
+  point: 1
+  occupancy_rate: 1
+
+two:
+  result: two
+  player: two
+  judge: two
+  table_role: two
+  ranking: 1
+  feeling_ranking: 1
+  q: 1
+  c1: 1
+  c2: 1
+  s1: 1
+  s2: 1
+  s3: 1
+  a1: 1
+  a2: 1
+  a3: 1
+  attitude_point: 1
+  statement_count: 1
+  point: 1
+  occupancy_rate: 1

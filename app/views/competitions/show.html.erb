@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Term:</strong>
+  <%= @competition.term %>
+</p>
+
+<p>
+  <strong>Stage:</strong>
+  <%= @competition.stage %>
+</p>
+
+<p>
+  <strong>Table estimation:</strong>
+  <%= @competition.table_estimation %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @competition.date %>
+</p>
+
+<%= link_to 'Edit', edit_competition_path(@competition) %> |
+<%= link_to 'Back', competitions_path %>

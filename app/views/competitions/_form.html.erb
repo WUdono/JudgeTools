@@ -1,0 +1,14 @@
+<%= simple_form_for(@competition) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.association :term %>
+    <%= f.association :stage %>
+    <%= f.association :table_estimation %>
+    <%= f.input :date %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
